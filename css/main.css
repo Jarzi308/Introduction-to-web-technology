@@ -1,0 +1,286 @@
+body
+{
+
+    background-color: gray;
+    
+}
+
+
+.container
+{
+    padding-right: 5em;
+    padding-left: 5em;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+.menudiv
+{
+
+     margin :auto;
+  
+}
+ 
+ .menulist
+{
+      display: flex;
+      justify-content: space-around;
+      align-content: flex-start;
+      flex-direction: row;
+      
+      
+} 
+.menuitem
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+
+
+
+.intro
+{
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-right: auto;
+    margin-left: auto;
+     
+}
+
+
+
+.content
+{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding-right: 2em;
+    padding-left: 2em;
+     
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.paragraphs
+{
+    display: flex;
+    flex-flow: row;
+    width:auto;
+}
+.place
+{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+     width:auto;
+    
+}
+
+.details
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 0,5em;
+    width: 15em;
+    background:#990033;
+    border-radius: 3em;
+    
+    text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 
+    
+}
+
+
+
+
+.details:hover
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 0,5em;
+    width: 15em;
+    background:#FF3366
+;
+    border-radius: 3em;
+    
+    text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 
+    
+}
+
+.details:active
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   height: 0,5em;
+    width: 15em;
+    background:#EF8C00;
+    border-radius: 30px;
+    
+    text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 
+    
+}
+
+
+
+.learnmore
+{
+    display: flex;
+    justify-content: center;
+    height: 0,5em;
+    width: 15em;
+    background:#00A800;
+    border-radius: 30px;
+    
+       text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;    
+}
+
+.learnmore:hover
+{
+    display: flex;
+    justify-content: center;
+    height: 0,5em;
+    width: 15em;
+    background:#66A866;
+    border-radius: 30px;
+    
+    text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;    
+}
+
+
+.learnmore:active
+{
+    display: flex;
+    justify-content: center;
+    height: 0,5em;
+    width: 15em;
+    background:#995799;
+    border-radius: 30em;
+    
+    text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;    
+}
+
+
+ .menulink
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height:2em;
+    width:16em;
+    background:grey;
+    
+    border-radius: 30px;
+    
+    text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 
+    
+}
+
+
+
+.menulink:hover
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height:2em;
+    width:16em;
+    background:#626462;
+    
+    border-radius: 30px;    
+    text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 
+    
+}
+
+
+
+.active
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height:2em;
+    width:16em;
+    background:#626462;
+    border: 0.02em solid  #000033;
+    border-radius: 30px;     
+    text-decoration: none;
+    color:azure;
+    text-align: center;
+    font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; 
+    
+}
+
+
+
+
+
+ 
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    
+ }
+ 
+.menufooter
+{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height:1em;
+        width:12em;
+        background:#1073FF;
+        border-radius: 30px; 
+
+        text-decoration: none;
+        color:azure;
+        text-align: center;
+        font: bold   "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;  
+    
+}
+
+.title
+{
+    display:flex; 
+    width:20em;
+    height:20em;
+     
+    
+    
+}
+
+
